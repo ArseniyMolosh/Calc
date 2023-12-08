@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/kalkCH/kalkCH.css"></link>
+    <title>Document</title>
+</head>
+<body>
+    <form id="formCalc">
+        <h1>Калькулятор<br> чаевых</h1>
+        <div class="form">
+            <label for="inputBillValue">
+                Сумма по счёту
+                <input type="text" id="inputBillValue" class="sum" placeholder="Введите сумму по счёту">
+            </label>
+            <label for="selectQualityService">
+                Качество обслуживания
+                <select name="pets" id="selectQualityService">
+                    <option value="">Выберите качество обслуживания</option>
+                    <option value="0">Плохое(0%)</option>
+                    <option value="5">Нормальное(5%)</option>
+                    <option value="10">Хорошее(10%)</option>
+                    <option value="15">Отлличное(15%)</option>
+                </select>
+            </label>
+            <label for="inputQtyPeople">
+                Количество человек
+                <input type="text" class="num" id="inputQtyPeople" placeholder="Введите кол-во человек">
+            </label>
+            <div class="btn">
+                <div class="btn1"><button class="btn11" type="submit">П О С Ч И Т А Т Ь</button></div>
+                <div class="btn2"><button class="btn22" type="reset">С Б Р О С И Т Ь</button></div>
+            </div>
+            <div class="money">
+                <p>
+                    <span>Чаевые:</span>
+                    <span id="res1"></span>
+                    <span>(с каждого)</span>
+                </p>
+                <p>
+                    <span>Всего:</span>
+                    <span id="res2"></span>
+                    <span>(с каждого)</span>
+                </p>
+            </div>
+        </div>
+    </form>
+    <script src="/kalkCH/kalkCH.js"></script>
+</body>
+</html>

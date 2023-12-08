@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    background-color: rgb(46, 8, 83);
+    width: 330px;
+    height: 510px;
+    margin: 10% 10%;
+}
+
+h1 {
+    color: orange;
+    padding: 15px 35px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    padding: 7px 35px;
+    color: white;
+    font-size: 13px;
+}
+
+input {
+    width: 250px;
+    height: 23px;
+    color: black;
+}
+
+select {
+    width: 258px;
+    height: 30px;
+}
+
+.btn {
+    padding: 15px 35px;
+    display: flex;
+}
+
+button {
+    padding: 12px 10px;
+    border-radius: 10px;
+    word-spacing: -3px;
+}
+
+.btn1 {
+    padding-right: 10px;
+}
+
+.btn11 {
+    background-color: yellow;
+    border-color: yellow;
+    font-weight: 800;
+}
+
+.btn22 {
+    background-color: grey;
+    border-color: grey;
+    color: white;
+    font-weight: 800;
+}
+
+.money {
+    padding: 5px 35px;
+    color: white;
+}
+
+.money1 {
+    display: flex;
+}
+
+.money2 {
+    display: flex;
+}
+
+p {
+    padding-right: 5px;
+}
